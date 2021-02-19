@@ -1,0 +1,23 @@
+.ActionBar {
+  width: 100%;
+  background-color: lightblue; 
+  display: flex;
+  justify-content: space-between;
+}
+
+.ActionBarContainer {
+  width: 80%;
+  margin: 5% 10%;
+  position: relative;
+}
+
+.ShikigamiPositionContainer {
+  position: absolute;
+  width: 100px;
+  text-align: center;
+  transition-duration: 1s;
+}
+
+.ShikigamiDetail {
+  border-radius: 5px;
+}
